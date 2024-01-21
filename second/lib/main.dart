@@ -34,22 +34,18 @@ class MyHomePage extends StatelessWidget {
         children: [
           FloatingActionButton(
             onPressed: () {
-              // Handle first FAB press
-              // Add your code here
             },
             child: Icon(Icons.add),
           ),
           SizedBox(height: 16.0),
           FloatingActionButton(
             onPressed: () {
-              // Handle second FAB press
-              // Add your code here
             },
-            child: Icon(Icons.minimize),
+            child: Icon(Icons.minimize_outlined),
           ),
         ],
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
     );
   }
 }
