@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
+        appBar: AppBar  (
           actions: [
             IconButton(
               icon: Icon(Icons.search),
@@ -33,6 +33,7 @@ class MyApp extends StatelessWidget {
           ],
           title: Text(" Abdullah"),
         ),
+
         floatingActionButton: FloatingActionButton(onPressed: (){},),
       ),
     );
