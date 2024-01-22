@@ -22,10 +22,18 @@ class MyHomePage extends StatelessWidget {
         title: Text('Floating Action Buttons'),
       ),
       body: Center(
+        
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Your main content goes here
+
+            Text('Deliver features faster'),
+            Text('Craft beautiful UIs'),
+            Expanded(
+              child: FittedBox(
+                child: FlutterLogo(),
+              ),
+            ),
           ],
         ),
       ),
