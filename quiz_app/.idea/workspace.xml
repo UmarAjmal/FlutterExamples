@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c712a523-3a44-4b43-9e0f-9ddf4daa3e02" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../untitled/images/dice-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/main/kotlin/com/example/quizapp/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/lib/answer.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/lib/questions.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/lib/quiz.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/lib/result.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizApp/test/widget_test.dart" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2bfnIOWPNMxJtn8a6XOa2gPUpSO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Public/Documents/FlutterExamples/quiz_app/android/assets/images&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\Documents\FlutterExamples\quiz_app\android\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\Documents\FlutterExamples\quiz_app\android\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c712a523-3a44-4b43-9e0f-9ddf4daa3e02" name="Changes" comment="" />
+      <created>1706614940162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706614940162</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
