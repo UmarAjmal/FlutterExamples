@@ -10,7 +10,7 @@ class StartScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children:  [
           const Opacity(
-            opacity: 0.1,
+            opacity: 0.5,
             child: FlutterLogo(
               size: 400.0,
             ),
@@ -32,7 +32,7 @@ class StartScreen extends StatelessWidget {
             },
             style: OutlinedButton.styleFrom(
                 foregroundColor: const Color.fromARGB(100, 241, 197, 228)),
-            icon: const Icon(Icons.arrow_right_alt),
+            icon:  Icon(Icons.arrow_right_alt),
             label: const Text('Start Quiz'),
           ),
           // Add more widgets as needed
