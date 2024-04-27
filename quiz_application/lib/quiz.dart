@@ -13,33 +13,42 @@ class Quiz extends StatefulWidget {
 }
 
 class _QuizState extends State<Quiz> {
-   List<String> selectedAnswers = [];
+  List<String> selectedAnswers = [];
   var activeScreen = 'result_screen';
 
-
   void switchScreen() {
-    setState(() {
-      activeScreen = 'questions_screen';
-    },);
+    setState(
+      () {
+        activeScreen = 'questions_screen';
+      },
+    );
   }
 
   void chooseAnswer(String answer) {
     selectedAnswers.add(answer);
-    if (selectedAnswers.length == questions.length){
-      setState(() {
-        activeScreen = 'start screen';
-      },);
+    if (selectedAnswers.length == questions.length) {
+      setState(
+        () {
+          print(" I am a Choose Answer Fucntion");
+
+            questions.first;
+            selectedAnswers = [];
+            activeScreen = 'start screen';
+        },
+      );
     }
   }
 
-   @override
+  @override
   Widget build(BuildContext context) {
     Widget screenWidget = StartScreen(switchScreen);
-    if(activeScreen == 'question_screen'){
+    if (activeScreen == 'question_screen') {
       screenWidget = Questions(onSelectedAnswer: chooseAnswer);
     }
-    if(activeScreen == 'result_screen'){
-      screenWidget =  ResultScreen(chosenanswer: selectedAnswers,);
+    if (activeScreen == 'result_screen') {
+      screenWidget = ResultScreen(
+        chosenanswer: selectedAnswers,
+      );
     }
     return MaterialApp(
       debugShowCheckedModeBanner: false,
