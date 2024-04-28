@@ -29,15 +29,32 @@ class _NewExpenseState extends State<NewExpense> {
       _selectedDate = presentDate;
     });
   }
-void submitExpenseData()
-{
-  final enteredAmount = double.tryParse(_amountControler.text );
-  final invaliAmount= enteredAmount==null || enteredAmount<=0;
-  if(_textControler.text.trim().isEmpty || invaliAmount || _selectedDate== null)
-  {
-    
+
+  void submitExpenseData() {
+    final enteredAmount = double.tryParse(_amountControler.text);
+    final invaliAmount = enteredAmount == null || enteredAmount <= 0;
+    if (_textControler.text.trim().isEmpty ||
+        invaliAmount ||
+        _selectedDate == null) {
+      showDialog(
+        context: context,
+        builder: (ctx) => AlertDialog(
+          title: const Text("Invalid input"),
+          content:
+              const Text('Please entered correct title, amount and date properly.'),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.pop(ctx);
+              },
+              child: const Text('Cancel'),
+            )
+          ],
+        ),
+      );
+    }
   }
-}
+
   @override
   void dispose() {
     _textControler.dispose();
