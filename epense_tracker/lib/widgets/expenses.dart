@@ -9,7 +9,6 @@ class Expenses extends StatefulWidget {
   @override
   State<Expenses> createState() => _ExpensesState();
 }
-
 class _ExpensesState extends State<Expenses> {
   final List<Expense> _registeredexpenses = [
     Expense(
@@ -25,14 +24,12 @@ class _ExpensesState extends State<Expenses> {
       category: Category.Leisure,
     ),
   ];
-
   void _openExpenseAddOverlay() {
     showModalBottomSheet(
       context: context,
       builder: (ctx) =>  const NewExpense(),
     );
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

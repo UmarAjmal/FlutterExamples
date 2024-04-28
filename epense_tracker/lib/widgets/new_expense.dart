@@ -26,12 +26,13 @@ class _NewExpenseState extends State<NewExpense> {
       _selectedDate = presentDate;
     });
   }
-  void submitExpense() {
+  void _submitExpense() {
     final enteredAmount = double.tryParse(_amountControler.text);
-    final invaliAmount = enteredAmount == null || enteredAmount <= 0;
+    final invalidAmount = enteredAmount == null || enteredAmount <= 0;
     if (_textControler.text.trim().isEmpty ||
-        invaliAmount ||
-        _selectedDate == null) {
+        invalidAmount ||
+        _selectedDate == null)
+    {
       showDialog(
         context: context,
         builder: (ctx) => AlertDialog(
@@ -48,19 +49,9 @@ class _NewExpenseState extends State<NewExpense> {
           ],
         ),
       );
+      return;
     }
   }
-
-
-void submitExpenseData()
-{
-  final enteredAmount = double.tryParse(_amountControler.text );
-  final invaliAmount= enteredAmount==null || enteredAmount<=0;
-  if(_textControler.text.trim().isEmpty || invaliAmount || _selectedDate== null)
-  {
-    
-  }
-}
   @override
   void dispose() {
     _textControler.dispose();
@@ -140,10 +131,7 @@ void submitExpenseData()
                   },
                   child: const Text('Cancel')),
               ElevatedButton(
-                onPressed: () {
-                  print(_textControler.text);
-                  print(_amountControler.text);
-                },
+                onPressed: _submitExpense,
                 child: const Text('Save Expense'),
               )
             ],
