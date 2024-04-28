@@ -26,7 +26,7 @@ class _NewExpenseState extends State<NewExpense> {
       _selectedDate = presentDate;
     });
   }
-  void submitExpenseData() {
+  void submitExpense() {
     final enteredAmount = double.tryParse(_amountControler.text);
     final invaliAmount = enteredAmount == null || enteredAmount <= 0;
     if (_textControler.text.trim().isEmpty ||
