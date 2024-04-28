@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:uuid/uuid.dart';
 import 'package:intl/intl.dart';
 import 'package:epense_tracker/models/expense.dart';
-
 final formatter = DateFormat.yMd();
 const uuid = Uuid();
 
@@ -13,13 +12,11 @@ class NewExpense extends StatefulWidget {
   @override
   State<NewExpense> createState() => _NewExpenseState();
 }
-
 class _NewExpenseState extends State<NewExpense> {
   final _textControler = TextEditingController();
   final _amountControler = TextEditingController();
   DateTime? _selectedDate;
   Category _selectedCategory = Category.Leisure;
-
   void _presentDatePicker() async {
     final now = DateTime.now();
     final firstDate = DateTime(now.year - 1, now.month, now.day);
@@ -29,7 +26,6 @@ class _NewExpenseState extends State<NewExpense> {
       _selectedDate = presentDate;
     });
   }
-
   void submitExpenseData() {
     final enteredAmount = double.tryParse(_amountControler.text);
     final invaliAmount = enteredAmount == null || enteredAmount <= 0;
@@ -55,13 +51,22 @@ class _NewExpenseState extends State<NewExpense> {
     }
   }
 
+
+void submitExpenseData()
+{
+  final enteredAmount = double.tryParse(_amountControler.text );
+  final invaliAmount= enteredAmount==null || enteredAmount<=0;
+  if(_textControler.text.trim().isEmpty || invaliAmount || _selectedDate== null)
+  {
+    
+  }
+}
   @override
   void dispose() {
     _textControler.dispose();
     _amountControler.dispose();
     super.dispose();
   }
-
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.all(16),
